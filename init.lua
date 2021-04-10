@@ -96,7 +96,7 @@ if not crops.settings then
 	crops.settings = settings.normal
 end
 if crops.settings.hydration then
-	minetest.log("action", "[crops] "..S("Hydration and dehydration mechanics are enabled."))
+	--minetest.log("action", "[crops] "..S("Hydration and dehydration mechanics are enabled."))
 end
 
 local find_plant = function(node)
@@ -382,4 +382,4 @@ end
 dofile(modpath .. "/cooking.lua")
 dofile(modpath .. "/mapgen.lua")
 
-minetest.log("action", "[crops] "..S("Loaded!"))
+--minetest.log("action", "[crops] "..S("Loaded!"))
